@@ -9,9 +9,9 @@
     <?php
     //書き込み
 
-    $dsn = 'mysql:dbname=tb250463db;host=localhost'; //データベース名
-    $user = 'tb-250463'; //ユーザー名
-    $password = 'bsggufHd23';
+    $dsn = 'mysql:dbname=データベース名;host=localhost'; //データベース名
+    $user = 'ユーザー名'; //ユーザー名
+    $password = 'ホスト名';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     
     $sql = "CREATE TABLE IF NOT EXISTS keijiban"
